@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>OopBuy spreadsheet | Categorieën, maten en QC-foto’s</title>
+  <meta name="description" content="Gebruik de OopBuy spreadsheet als startpunt. Open tien categorieën bij Hipobuyfind en leer productlinks, kledingmaten, QC-foto’s en verzendkosten vergelijken.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="nl_NL">
+  <meta property="og:title" content="OopBuy spreadsheet | Categorieën, maten en QC-foto’s">
+  <meta property="og:description" content="Tien categorieën bij Hipobuyfind en praktische koopgidsen voor sneakers, streetwear en accessoires.">
+  <meta name="theme-color" content="#34234b">
+  <link rel="preconnect" href="https://images.stockx.com">
+  <style>
+    :root{color-scheme:light;--paper:#f8f4fb;--ink:#271a36;--muted:#5e506d;--plum:#34234b;--rose:#f7d7e5;--line:#d8cade;--white:#fff}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+    .wrap{width:min(1120px,calc(100% - 2rem));margin-inline:auto}
+    .top{background:var(--plum);color:var(--white)}
+    .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:3.75rem}
+    a{color:inherit}
+    a:hover{text-decoration-thickness:2px}
+    :focus-visible{outline:3px solid #994594;outline-offset:3px}
+    .top a:focus-visible{outline-color:var(--rose)}
+    .brand{font-weight:800;text-decoration:none}
+    h1,h2,h3,p,figure{margin:0}
+    p+p{margin-top:.75rem}
+    h1,h2{font-family:Georgia,serif;font-weight:600;line-height:1.04;letter-spacing:-.04em}
+    h1{font-size:clamp(2.65rem,7vw,6.25rem);overflow-wrap:anywhere}
+    h2{font-size:clamp(2rem,4vw,3.1rem)}
+    h3{line-height:1.25;font-size:1.15rem}
+    .intro{padding:clamp(2rem,5vw,4.5rem) 0 1.5rem}
+    .intro p{max-width:67ch;margin-top:1rem;color:var(--muted)}
+    .categories h2{font:750 1rem/1.3 system-ui,sans-serif;letter-spacing:0;margin-bottom:.65rem}
+    .categories ul,.gallery{display:grid;margin:0;padding:0;list-style:none}
+    .categories ul{grid-template-columns:repeat(5,minmax(0,1fr));gap:1px;border:1px solid var(--line);background:var(--line)}
+    .categories a{display:flex;height:100%;align-items:center;justify-content:space-between;gap:.25rem;padding:.65rem .7rem;min-height:3rem;background:var(--white);text-decoration:none;font-size:.91rem;font-weight:700;overflow-wrap:anywhere}
+    .categories a:hover{background:var(--rose);text-decoration:underline}
+    .categories span{color:#714069}
+    .feature{display:grid;grid-template-columns:1.3fr 1fr;margin-top:1.5rem;background:var(--rose)}
+    img{display:block;width:100%;height:auto;background:#f1ebf4}
+    .feature img{aspect-ratio:7/5;object-fit:contain}
+    .feature figcaption{align-self:center;padding:clamp(1.25rem,4vw,3rem)}
+    .feature p,.section>p{margin-top:.85rem}
+    .section{margin-top:clamp(2.75rem,6vw,5rem)}
+    .articles article{display:grid;grid-template-columns:1fr 2fr;gap:1rem;border-top:1px solid var(--line);padding:1.25rem 0}
+    .articles article:first-of-type{margin-top:1.25rem}
+    .gallery{grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin-top:1rem}
+    .gallery figure{background:var(--white);border-bottom:2px solid var(--line)}
+    .gallery img{aspect-ratio:1;object-fit:contain}
+    .gallery figcaption{padding:.65rem .8rem;font-weight:700}
+    .faq{margin-top:1rem;border-bottom:1px solid var(--line)}
+    details{border-top:1px solid var(--line);padding:.8rem 0}
+    summary{cursor:pointer;font-weight:750;padding:.25rem 0}
+    details p{max-width:74ch;padding:.45rem 0 .25rem}
+    footer{background:var(--plum);color:var(--white);margin-top:3rem;padding:1.5rem 0}
+    footer p{max-width:72ch;margin-top:.5rem;color:#f4e9f7}
+    @media(max-width:850px){.categories ul{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:580px){.categories ul,.gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.feature,.articles article{grid-template-columns:1fr}.articles article{gap:.45rem}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebPage",
+        "inLanguage":"nl",
+        "name":"OopBuy spreadsheet | Categorieën, maten en QC-foto’s",
+        "description":"Nederlandstalige keuzehulp met tien categorieën bij Hipobuyfind en uitleg over productlinks, maten, kwaliteitscontrole en verzendkosten."
+      },
+      {
+        "@type":"FAQPage",
+        "inLanguage":"nl",
+        "mainEntity":[
+          {"@type":"Question","name":"Wat is een OopBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Een OopBuy spreadsheet is een geordende lijst waarmee je productlinks en categorieën kunt vergelijken. Deze pagina geeft koopadvies en verwijst naar categorieën op Hipobuyfind."}},
+          {"@type":"Question","name":"Wat betekenen QC-foto’s?","acceptedAnswer":{"@type":"Answer","text":"QC staat voor kwaliteitscontrole. QC-foto’s helpen je zichtbare kenmerken zoals stiksels, kleur en afwerking te beoordelen. Ze leveren op zichzelf geen bewijs van echtheid."}},
+          {"@type":"Question","name":"Welke maat kies ik bij twee verschillende maattabellen?","acceptedAnswer":{"@type":"Answer","text":"Gebruik de maattabel van de gekozen variant. Vergelijk de maten in centimeters met een kledingstuk dat je al hebt en controleer of de tabel lichaamsmaten of kledingmaten vermeldt."}},
+          {"@type":"Question","name":"Waar kom ik terecht als ik een categorie open?","acceptedAnswer":{"@type":"Answer","text":"Elke categorie opent de bijbehorende pagina op Hipobuyfind. Controleer op de bestemmingspagina welke producten en varianten beschikbaar zijn."}},
+          {"@type":"Question","name":"Hoe vergelijk ik verzendkosten voor Nederland en België?","acceptedAnswer":{"@type":"Answer","text":"Vergelijk offertes voor hetzelfde afleveradres en pakket. Controleer het gebruikte gewicht, de servicekosten en welke belastingen of afhandelingskosten in het bedrag zitten."}}
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/tbshd/">
+</head>
+<body>
+  <!-- Onderzoeksnotitie: Google vroeg om verificatie. De eerste Google-resultatenpagina kon niet worden bevestigd. Tien geraadpleegde webresultaten en hun onderwerpen:
+  ooopbuy.me (categorieën, maatvoering, QC), oopbuying.com (streetwear, koopgids),
+  oopbuyhipobuy.org (catalogus, fotocontrole), ssfinds.com/oopbuy-spreadsheet (productlinks, QC-foto’s),
+  opbuysheet.com (categorie-index), oocbuy.com (schoenen, kleding),
+  oopbuysupply.com (bronvermelding, verkoper), oopbuytab.com (assortiment, productfoto’s),
+  oopbuyhipobuy.com (QC, verzending), oopbuy.fit (spreadsheetoverzicht).
+  -->
+  <!-- Zoekwoordadvies. Secundair: OopBuy-productlinks, QC-foto’s beoordelen, maattabellen voor streetwear, verzendkosten vergelijken.
+  Longtail: OopBuy spreadsheet gebruiken, OopBuy-productlink controleren, oorspronkelijke productlink bewaren, verkopersnaam opzoeken, productcode vergelijken, beschikbare schoenmaat controleren, oude spreadsheetlink controleren, QC-foto’s van sneakers bekijken, zoolranden vergelijken, maatlabel van sneakers lezen, jasvoering beoordelen, rits van een jas controleren, borduurwerk van een pet bekijken, sluiting van een armband controleren, borstbreedte van een hoodie meten, mouwlengte in centimeters meten, taillebreedte van broeken meten, binnenbeenlengte vergelijken, maat van een kledingset kiezen, ruglengte van een sportshirt meten, kledingmaten en lichaamsmaten vergelijken, volumegewicht van een pakket controleren, verzendkosten naar Nederland vergelijken, verzendkosten naar België vergelijken.
+  -->
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+      <a href="https://www.hipobuyfind.com">Naar de catalogus <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main class="wrap">
+    <header class="intro">
+      <h1>OopBuy spreadsheet</h1>
+      <p>Begin bij je categorie en leg daarna twee of drie producten naast elkaar. Deze onafhankelijke koopgids wijst je naar Hipobuyfind en helpt je productlinks, maten en kwaliteitsfoto’s beoordelen voordat je bestelt.</p>
+    </header>
+    <nav class="categories" aria-labelledby="categorieen">
+      <h2 id="categorieen">Blader door de categorieën</h2>
+      <ul>
+        <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Shoes <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Hoodies/Sweaters <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-Shirts <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Jackets <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Pants/Shorts <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Headwear <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-917-Sets.html">Sets <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Underwear/underpants <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Jersey <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accessories <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+    <figure class="feature">
+      <img src="https://images.stockx.com/images/Dior-B27-Low-Top-Anthracite-Gray-White-Calfskin.jpg?fit=fill&amp;fm=webp&amp;h=500&amp;q=75&amp;w=700" width="700" height="500" fetchpriority="high" loading="eager" alt="Lage Dior B27-sneaker in antracietgrijs en wit, van opzij gefotografeerd">
+      <figcaption>
+        <h2>Een productfoto is het begin</h2>
+        <p>Bij sneakers vertelt het zijaanzicht je iets over de vorm. Voor een betere vergelijking wil je ook de hiel, de onderkant van de zool en het maatlabel zien. De afgebeelde Dior B27 dient als stijlvoorbeeld.</p>
+      </figcaption>
+    </figure>
+    <section class="section articles" aria-labelledby="koopgidsen">
+      <h2 id="koopgidsen">Koopgidsen en controles</h2>
+      <article>
+        <h3>OopBuy-productlinks vergelijken</h3>
+        <p>Bewaar de oorspronkelijke productlink, de verkopersnaam en de gekozen variant. Controleer na het openen de productcode, kleurnaam en beschikbare maat. Als een oude link naar een andere uitvoering leidt, begin dan opnieuw bij de categorie en vergelijk de bronvermelding.</p>
+      </article>
+      <article>
+        <h3>QC-foto’s beoordelen</h3>
+        <p>Vraag bij sneakers om foto’s van beide hielen en zoolranden. Bekijk bij een jas de rits, voering en naden van dichtbij. Controleer bij een pet de plaatsing van het borduurwerk en bij een armband de sluiting. Vergelijk foto’s van dezelfde variant bij vergelijkbaar licht.</p>
+      </article>
+      <article>
+        <h3>Maattabellen voor streetwear lezen</h3>
+        <p>Meet de borstbreedte, schouderbreedte en mouwlengte van een passende hoodie plat op tafel. Noteer bij broeken de taillebreedte en binnenbeenlengte. Vergelijk bij een set de boven- en ondermaat afzonderlijk, bij ondergoed de taille volgens de tabel en bij een sportshirt ook de ruglengte.</p>
+      </article>
+      <article>
+        <h3>Verzendkosten vooraf vergelijken</h3>
+        <p>Noteer de artikelprijs, eventuele kosten voor binnenlandse verzending en servicekosten apart. Vraag voor internationale verzending naar het werkelijke gewicht, het volumegewicht en de berekeningsmethode. Vergelijk voor een bestelling naar Nederland of België het totaalbedrag voor hetzelfde afleveradres.</p>
+      </article>
+    </section>
+    <section class="section" aria-labelledby="details-kijken">
+      <h2 id="details-kijken">Stijlvoorbeelden om details te herkennen</h2>
+      <p>Gebruik de foto’s om je oog te trainen voor zoolvorm, kraag, borduurwerk en sluiting. De afbeeldingen dienen als stijlinspiratie.</p>
+      <div class="gallery">
+        <figure>
+          <img src="https://nikeclprod.vtexassets.com/arquivos/ids/160793/CW2288_111_A_PREM.jpg?v=637654399803530000" width="360" height="360" loading="lazy" decoding="async" alt="Witte lage Nike Air Force 1 ’07 met witte Swoosh en geperforeerde neus">
+          <figcaption>Nike Air Force 1 ’07</figcaption>
+        </figure>
+        <figure>
+          <img src="https://jp.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-embossed-monogram-zip-up-jacket--FUVI01387900_PM1_Worn%20view.png?hei=420&amp;wid=420" width="420" height="420" loading="lazy" decoding="async" alt="Model met een zwarte Louis Vuitton-ritsjas met reliëfmonogram">
+          <figcaption>Louis Vuitton-ritsjas</figcaption>
+        </figure>
+        <figure>
+          <img src="https://cdn.clothbase.com/uploads/aa7b7e1d-e124-468f-aa33-9af502523aca/P00992208_b2.jpg" width="360" height="360" loading="lazy" decoding="async" alt="Model met een beige Gucci GG Canvas-pet met donkere klep">
+          <figcaption>Gucci GG Canvas-pet</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.hermes.com/is/image/hermesproduct/bracelet-clic-h--700001F%204P-front-1-300-0-1000-1000_b.jpg" width="360" height="360" loading="lazy" decoding="async" alt="Hermès Clic H-armband met emaille en een H-vormige sluiting">
+          <figcaption>Hermès Clic H</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="veelgestelde-vragen">
+      <h2 id="veelgestelde-vragen">Veelgestelde vragen</h2>
+      <div class="faq">
+        <details open>
+          <summary>Wat is een OopBuy spreadsheet?</summary>
+          <p>Een OopBuy spreadsheet is een geordende lijst waarmee je productlinks en categorieën kunt vergelijken. Deze pagina geeft koopadvies en verwijst naar categorieën op Hipobuyfind.</p>
+        </details>
+        <details>
+          <summary>Wat betekenen QC-foto’s?</summary>
+          <p>QC staat voor kwaliteitscontrole. QC-foto’s helpen je zichtbare kenmerken zoals stiksels, kleur en afwerking te beoordelen. Ze leveren op zichzelf geen bewijs van echtheid.</p>
+        </details>
+        <details>
+          <summary>Welke maat kies ik bij twee verschillende maattabellen?</summary>
+          <p>Gebruik de maattabel van de gekozen variant. Vergelijk de maten in centimeters met een kledingstuk dat je al hebt en controleer of de tabel lichaamsmaten of kledingmaten vermeldt.</p>
+        </details>
+        <details>
+          <summary>Waar kom ik terecht als ik een categorie open?</summary>
+          <p>Elke categorie opent de bijbehorende pagina op Hipobuyfind. Controleer op de bestemmingspagina welke producten en varianten beschikbaar zijn.</p>
+        </details>
+        <details>
+          <summary>Hoe vergelijk ik verzendkosten voor Nederland en België?</summary>
+          <p>Vergelijk offertes voor hetzelfde afleveradres en pakket. Controleer het gebruikte gewicht, de servicekosten en welke belastingen of afhandelingskosten in het bedrag zitten.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <a class="brand" href="https://www.hipobuyfind.com">hipobuyfind.com</a>
+      <p>Onafhankelijke koopgids. Merknamen dienen ter identificatie van de afgebeelde stijlvoorbeelden.</p>
+    </div>
+  </footer>
+</body>
+</html>
